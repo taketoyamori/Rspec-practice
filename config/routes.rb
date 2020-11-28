@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
  
- get 'posts/new' => 'posts#new'
+ root to: 'posts#new'
  
 end
